@@ -1,0 +1,7 @@
+@media (max-width: 750px) {
+  .nav { height: auto; min-height: 65px; padding-top: 12px; padding-bottom: 12px; align-items: flex-start; }
+  .brand { font-size: 18px; line-height: 1; }
+  .brand span { display: block; margin-top: 3px; }
+  nav { gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+  nav a { font-size: 11px; }
+}
