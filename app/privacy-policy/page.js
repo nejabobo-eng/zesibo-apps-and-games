@@ -2,15 +2,15 @@ import { Page } from "../components/SiteShell";
 
 export const metadata = {
   title: "Privacy Policy | Zesibo Apps & Games",
-  description: "Privacy Policy for Zesibo apps and games, including Chicken Rush, SafeDiary, and QuickInvoice.",
+  description: "Privacy Policy for Zesibo apps and games, including Chicken Rush, SafeDiary, QuickInvoice, and Photo Reel.",
 };
 
 export default function PrivacyPolicyPage() {
   return <Page eyebrow="PRIVACY POLICY" title={<>Your privacy<br /><em>matters.</em></>}>
     <section className="section policy-section">
       <article className="policy-card">
-        <p><strong>Effective date:</strong> 5 October 2026</p>
-        <p>Zesibo, operated by Mlu Solutions ("we", "us", or "our"), creates and publishes mobile apps and games. This Privacy Policy explains how we handle information in our apps and games, including Chicken Rush, SafeDiary, and QuickInvoice. It should be read with any app-specific information provided in the relevant Google Play listing.</p>
+        <p><strong>Effective date:</strong> 8 October 2026</p>
+        <p>Zesibo, operated by Mlu Solutions ("we", "us", or "our"), creates and publishes mobile apps and games. This Privacy Policy explains how we handle information in our apps and games, including Chicken Rush, SafeDiary, QuickInvoice, and Photo Reel. It should be read with any app-specific information provided in the relevant Google Play listing.</p>
         <h2>Information our apps may store</h2>
         <p>Our apps may store settings, progress, scores, or content locally on your device so that the app works as expected. For example, Chicken Rush stores your personal best score and game settings locally on your device.</p>
         <p>Unless an app clearly says otherwise, we do not require you to create an account or provide your name, phone number, email address, or precise location to use it.</p>
@@ -31,6 +31,11 @@ export default function PrivacyPolicyPage() {
         <p>QuickInvoice does not require an account and does not send your invoice or business information to a Zesibo server. You can choose to export an invoice as a PDF, share that PDF with another app or person, or create a backup file using a location or service you select, such as Google Drive. Once you choose to share or back up data, the privacy practices of the chosen recipient, app, device, or cloud service apply.</p>
         <p>QuickInvoice displays Google AdMob banner and interstitial advertisements. Google Mobile Ads may collect and process advertising and device information as described in the Advertising section. QuickInvoice does not use your invoice, customer, business, banking, or payment information for advertising.</p>
         <p>Depending on your Android device and backup settings, locally stored app data may be included in device backups. We will update this notice before adding account sign-in, Zesibo cloud storage, analytics, or another service that changes how QuickInvoice handles data.</p>
+        <h2 id="photo-reel">Photo Reel</h2>
+        <p>Photo Reel is a local photo-to-video creation app. When you select photos or audio using your device's file picker, Photo Reel keeps the selected media references, project name, captions, editing choices, and project timestamps locally on your device so you can continue editing your project. It accesses only the media you choose; it does not request broad access to your photo library.</p>
+        <p>Photo Reel generates exported videos locally on your device. It does not require an account and does not upload your selected photos, audio, captions, projects, or exported videos to a Zesibo server. You can choose to open or share an exported video using another app or service. Once you choose to share it, the privacy practices of the recipient, app, or service apply.</p>
+        <p>Photo Reel displays Google AdMob banner and interstitial advertisements. Google Mobile Ads may collect and process advertising and device information as described in the Advertising section. Photo Reel does not use your selected photos, audio, captions, or exported videos for advertising.</p>
+        <p>Depending on your Android device and backup settings, locally stored project data may be included in device backups. We will update this notice before adding cloud backup, sharing by default, accounts, analytics, or another service that changes how Photo Reel handles data.</p>
         <h2>Other Zesibo apps and games</h2>
         <p>Our current portfolio also includes Block Forge, Knight Relay Chess, FreeSpace, PaperKit, QuickCalc, Siyafunda Tutor, and TaxiLink. These products are in development unless their store listing says otherwise. Before each release, we will review its actual data practices and update this policy and its Google Play Data safety declaration to match the released version.</p>
         <h2>Children</h2>
