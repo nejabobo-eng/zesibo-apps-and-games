@@ -1,5 +1,5 @@
 export function Header() {
-  return <header className="nav"><a className="brand" href="/">ZESIBO <span>APPS &amp; GAMES</span></a><nav aria-label="Main navigation"><a href="/games">Games</a><a href="/apps">Apps</a><a href="/books">Books</a><a href="/download">Download</a><a href="/support">Support</a></nav></header>;
+  return <header className="nav"><a className="brand" href="/">ZESIBO <span>APPS &amp; GAMES</span></a><nav aria-label="Main navigation"><a href="/games">Games</a><a href="/apps">Apps</a><a href="/download">Download</a><a href="/support">Support</a></nav></header>;
 }
 
 export function Footer() {
