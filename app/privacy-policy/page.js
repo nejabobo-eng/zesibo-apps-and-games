@@ -2,15 +2,15 @@ import { Page } from "../components/SiteShell";
 
 export const metadata = {
   title: "Privacy Policy | Zesibo Apps & Games",
-  description: "Privacy Policy for Zesibo apps and games, including Chicken Rush, SafeDiary, QuickInvoice, and Photo Reel.",
+  description: "Privacy Policy for Zesibo apps and games, including Chicken Rush, Tennis Tots, SafeDiary, QuickInvoice, and Photo Reel.",
 };
 
 export default function PrivacyPolicyPage() {
   return <Page eyebrow="PRIVACY POLICY" title={<>Your privacy<br /><em>matters.</em></>}>
     <section className="section policy-section">
       <article className="policy-card">
-        <p><strong>Effective date:</strong> 8 October 2026</p>
-        <p>Zesibo, operated by Mlu Solutions ("we", "us", or "our"), creates and publishes mobile apps and games. This Privacy Policy explains how we handle information in our apps and games, including Chicken Rush, SafeDiary, QuickInvoice, and Photo Reel. It should be read with any app-specific information provided in the relevant Google Play listing.</p>
+        <p><strong>Effective date:</strong> 15 October 2026</p>
+        <p>Zesibo, operated by Mlu Solutions ("we", "us", or "our"), creates and publishes mobile apps and games. This Privacy Policy explains how we handle information in our apps and games, including Chicken Rush, Tennis Tots, SafeDiary, QuickInvoice, and Photo Reel. It should be read with any app-specific information provided in the relevant Google Play listing.</p>
         <h2>Information our apps may store</h2>
         <p>Our apps may store settings, progress, scores, or content locally on your device so that the app works as expected. For example, Chicken Rush stores your personal best score and game settings locally on your device.</p>
         <p>Unless an app clearly says otherwise, we do not require you to create an account or provide your name, phone number, email address, or precise location to use it.</p>
@@ -21,6 +21,10 @@ export default function PrivacyPolicyPage() {
         <p>We do not sell personal information directly. Where an app uses Google AdMob, information may be shared with Google and its advertising partners as necessary to provide and measure advertising. If a future Zesibo app uses another third-party service, we will update this policy or provide app-specific information before release.</p>
         <h2>Chicken Rush</h2>
         <p>Chicken Rush stores your personal best score and game settings locally. It displays Google AdMob banner and interstitial ads. If its optional world-score feature is enabled in a future release, it will send only the score number to that service, not your name, email address, or gameplay profile.</p>
+        <h2 id="tennis-tots">Tennis Tots</h2>
+        <p>Tennis Tots is a child-directed tennis game. The current version stores only the best-rally score locally on the device. It does not require an account, name, contact details, location, or a player profile, and it does not send game scores to a Zesibo server.</p>
+        <p>Tennis Tots displays Google AdMob banner and interstitial ads. The game configures Google Mobile Ads for child-directed treatment and G-rated ad content. Google Mobile Ads may still collect and process advertising and device information as described in the Advertising section. Tennis Tots does not use a child's gameplay score or game activity for advertising.</p>
+        <p>Depending on your Android device and backup settings, locally stored game data may be included in device backups. We will update this notice before adding online scores, accounts, cloud saves, analytics, or another service that changes how Tennis Tots handles data.</p>
         <h2 id="safe-diary">SafeDiary</h2>
         <p>SafeDiary is a personal diary app. In the current version, diary notes, note titles, timestamps, starred or deleted status, and the diary PIN are stored locally on your device. SafeDiary does not create a Zesibo account or send diary-note content to a Zesibo server.</p>
         <p>SafeDiary may show your device's biometric prompt, such as fingerprint or face authentication, when you use the PIN recovery feature. Your device's operating system handles this biometric check; SafeDiary does not receive or store biometric templates.</p>
@@ -37,7 +41,7 @@ export default function PrivacyPolicyPage() {
         <p>Photo Reel displays Google AdMob banner and interstitial advertisements. Google Mobile Ads may collect and process advertising and device information as described in the Advertising section. Photo Reel does not use your selected photos, audio, captions, or exported videos for advertising.</p>
         <p>Depending on your Android device and backup settings, locally stored project data may be included in device backups. We will update this notice before adding cloud backup, sharing by default, accounts, analytics, or another service that changes how Photo Reel handles data.</p>
         <h2>Other Zesibo apps and games</h2>
-        <p>Our current portfolio also includes Block Forge, Knight Relay Chess, FreeSpace, PaperKit, QuickCalc, Siyafunda Tutor, and TaxiLink. These products are in development unless their store listing says otherwise. Before each release, we will review its actual data practices and update this policy and its Google Play Data safety declaration to match the released version.</p>
+        <p>Our current portfolio includes games Chicken Rush, Tennis Tots, Block Forge and Knight Relay Chess; and apps QuickCalc, QuickInvoice, SafeDiary, Photo Reel, PaperKit, FreeSpace, Siyafunda Tutor and TaxiLink. A product is in development unless its store listing says otherwise. Before each release, we will review its actual data practices and update this policy and its Google Play Data safety declaration to match the released version.</p>
         <h2>Children</h2>
         <p>Our apps are not intended to collect personal information directly from children. Where an app is made available to children or mixed audiences, we use age-appropriate settings and follow applicable Google Play requirements.</p>
         <h2>Security</h2>
